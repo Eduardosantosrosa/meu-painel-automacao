@@ -11,7 +11,7 @@ Este repositório reúne um conjunto estruturado de scripts modulares em Bash, d
 - **Tratamento de Erros**: Estruturas de controle defensivas para garantir estabilidade e feedback direto no terminal.
 
 ## Estrutura e Detalhamento dos Módulos
-- **`./scripts/menu.sh`**: Script central responsável pela interface interativa de navegação do usuário através de menus dinâmicos e funções integradas de controle de processos.
+- **`./scripts/menu.sh`**: Script central responsável pela interface interativa de navegação do usuário através de menus dinâmicos e funções integradas de controle de processos e limpeza.
 
 ## Guia de Instalação e Execução
 Para clonar, configurar e iniciar o painel interativo no seu terminal, execute os comandos abaixo:
