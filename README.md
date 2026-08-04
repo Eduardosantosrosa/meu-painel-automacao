@@ -10,7 +10,10 @@ Este repositório reúne um conjunto estruturado de scripts modulares em Bash, d
 - **Validação de Ambiente**: Verificação rigorosa de dependências, caminhos e permissões antes da execução dos comandos críticos.
 - **Tratamento de Erros**: Estruturas de controle defensivas para garantir estabilidade e feedback direto no terminal.
 
-## Estrutura e Detalhamento dos Módulos
+## Arquitetura e Modularidade do Projeto ( scripts/menu.sh )
+
+O painel opera em arquivo único dividido estritamente nos seguintes blocos funcionais:
+
 1. **Bloco 1:** Gerencia a atualização de pacotes base do Termux (pkg update && pkg upgrade) e sincroniza automaticamente o repositório do projeto via git pull origin main.
 2. **Bloco 2:** Aciona o ambiente Kali Linux em modo texto via `proot-distro`.
 3. **Bloco 3:** Inicializa o servidor gráfico e a sessão do XFCE.
@@ -18,11 +21,10 @@ Este repositório reúne um conjunto estruturado de scripts modulares em Bash, d
 5. **Bloco 5:** Sair com segurança do painel interativo.
 
 ## Documentação do Projeto
-### Guia de Instalação e Execução
-Para clonar, configurar e iniciar o painel interativo no seu terminal, execute os comandos abaixo:
 
-    git clone https://github.com/Eduardosantosrosa/meu-painel-automacao.git
-    cd meu-painel-automacao
-    chmod +x scripts/menu.sh
-    ./scripts/menu.sh
-
+- **Instalação:** Instruções de clonagem do repositório, configuração inicial e preparação do ambiente base no Termux.
+- **Atualização:** Diretrizes sobre o fluxo de atualização do sistema e sincronização automatizada das novas versões do painel diretamente do repositório remoto.
+- **Autorização:** Gestão de permissões de execução (`chmod +x`) e liberação de acessos necessários para o funcionamento correto dos scripts.
+- **Como Iniciar:** Comando para executar a aplicação e abrir o painel interativo:
+  ```bash
+  ./scripts/menu.sh
