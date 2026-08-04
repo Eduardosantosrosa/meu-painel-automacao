@@ -18,11 +18,11 @@ Este repositório reúne um conjunto estruturado de scripts modulares em Bash, d
 5. **Bloco 5:** Sair com segurança do painel interativo.
 
 ## Documentação do Projeto
+### Guia de Instalação e Execução
+Para clonar, configurar e iniciar o painel interativo no seu terminal, execute os comandos abaixo:
 
-    ***Guia de Instalação e Execução
-         Para clonar, configurar e iniciar o painel interativo no seu terminal, execute os comandos abaixo:
+    git clone https://github.com/Eduardosantosrosa/meu-painel-automacao.git
+    cd meu-painel-automacao
+    chmod +x scripts/menu.sh
+    ./scripts/menu.sh
 
-         git clone https://github.com/Eduardosantosrosa/meu-painel-automacao.git
-             cd meu-painel-automacao
-             chmod +x scripts/menu.sh
-            ./scripts/menu.sh
