@@ -11,7 +11,13 @@ Este repositório reúne um conjunto estruturado de scripts modulares em Bash, d
 - **Tratamento de Erros**: Estruturas de controle defensivas para garantir estabilidade e feedback direto no terminal.
 
 ## Estrutura e Detalhamento dos Módulos
-- **`./scripts/menu.sh`**: Script central responsável pela interface interativa de navegação do usuário através de menus dinâmicos e funções integradas de controle de processos e limpeza.
+1. **Bloco 1:** Gerencia a atualização de pacotes base do Termux (pkg update && pkg upgrade) e sincroniza automaticamente o repositório do projeto via git pull origin main.
+2. **Bloco 2:** Aciona o ambiente Kali Linux em modo texto via `proot-distro`.
+3. **Bloco 3:** Inicializa o servidor gráfico e a sessão do XFCE.
+4. **Bloco 4:** Captura a árvore de processos, realiza o encerramento dinâmico de resíduos órfãos e limpa arquivos temporários.
+5. **Bloco 5:** Sair com segurança do painel interativo.
+
+## Documentação do Projeto
 
 ## Guia de Instalação e Execução
 Para clonar, configurar e iniciar o painel interativo no seu terminal, execute os comandos abaixo:
